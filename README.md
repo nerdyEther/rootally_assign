@@ -79,13 +79,6 @@ npm run start
 - `GET /api/programs`: Retrieve saved programs
 - `PUT /api/programs/:id`: Update existing program
 
-## 📦 Dependencies
 
-- React
-- Express
-- @hello-pangea/dnd
-- React Hot Toast
-- Tailwind CSS
-- Shadcn/UI Components
 
 

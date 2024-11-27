@@ -26,246 +26,6 @@
   },
   "programs": [
     {
-      "id": 1732663028435,
-      "name": "test1",
-      "exercises": [
-        {
-          "exercise": "Push-ups",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "exercise": "Plank",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732665113784,
-      "name": "test2",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Lunges",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 1,
-          "exercise": "Lunges",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "right",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732665618828,
-      "name": "neel",
-      "exercises": [
-        {
-          "exercise": "Squats",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732666084054,
-      "name": "test3",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Squats",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 1,
-          "exercise": "Leg Press",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 2,
-          "exercise": "Lunges",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 3,
-          "exercise": "Leg Press",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "right",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732666098857,
-      "name": "test3",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Leg Press",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 1,
-          "exercise": "Squats",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
-        {
-          "order": 2,
-          "exercise": "Lunges",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732694264365,
-      "name": "first",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Hamstring Stretch",
-          "category": "Flexibility",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "left",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732694276150,
-      "name": "first",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Hamstring Stretch",
-          "category": "Flexibility",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "left",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732701439601,
-      "name": "wer",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Plank",
-          "category": "Core",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": [
-            "Mon",
-            "Tue",
-            "Thu"
-          ],
-          "side": "left",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732702691099,
-      "name": "first",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Hamstring Stretch",
-          "category": "Flexibility",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "left",
-          "notes": ""
-        },
-        {
-          "order": 1,
-          "exercise": "Hamstring Stretch",
-          "category": "Flexibility",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "right",
-          "notes": ""
-        }
-      ]
-    },
-    {
       "id": 1732703421629,
       "name": "hj",
       "exercises": [
@@ -278,176 +38,172 @@
           "holdTime": "",
           "days": "",
           "side": "",
-          "notes": ""
+          "notes": "",
+          "frequencyPerDay": 1
         }
       ]
     },
     {
-      "id": 1732703443170,
-      "name": "hj",
+      "id": 1732710836755,
+      "name": "test1",
       "exercises": [
         {
           "order": 0,
           "exercise": "Squats",
           "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
+          "sets": "2",
+          "reps": "3",
+          "holdTime": "2",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sun"
+          ],
+          "side": "left",
+          "notes": "good going",
+          "frequencyPerDay": 1
         }
       ]
     },
     {
-      "id": 1732703518180,
-      "name": "new3",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Push-ups",
-          "category": "Upper Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "right",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732703642438,
-      "name": "t6",
+      "id": 1732710855066,
+      "name": "test2",
       "exercises": [
         {
           "order": 0,
           "exercise": "Squats",
           "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732704073574,
-      "name": "test33",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Leg Press",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
+          "sets": "2",
+          "reps": "3",
+          "holdTime": "2",
+          "days": [
+            "Tue",
+            "Thu",
+            "Sun"
+          ],
+          "side": "left",
+          "notes": "good going",
+          "frequencyPerDay": 1
         },
         {
           "order": 1,
-          "exercise": "Squats",
+          "exercise": "Pull-ups",
+          "category": "Upper Body",
+          "sets": "2",
+          "reps": "2",
+          "holdTime": "1",
+          "days": [
+            "Mon"
+          ],
+          "side": "right",
+          "notes": "",
+          "frequencyPerDay": 1
+        }
+      ]
+    },
+    {
+      "id": 1732711833294,
+      "name": "New_program",
+      "exercises": [
+        {
+          "order": 0,
+          "exercise": "Lunges",
           "category": "Lower Body",
+          "sets": "1",
+          "reps": "2",
+          "holdTime": "3",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sun"
+          ],
+          "side": "right",
+          "notes": "good",
+          "frequencyPerDay": 1
+        },
+        {
+          "order": 1,
+          "exercise": "Plank",
+          "category": "Core",
           "sets": "",
           "reps": "",
           "holdTime": "",
           "days": "",
-          "side": "",
-          "notes": ""
+          "side": "left",
+          "notes": "",
+          "frequencyPerDay": "4"
         },
         {
           "order": 2,
           "exercise": "Lunges",
           "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        },
+          "sets": "1",
+          "reps": "2",
+          "holdTime": "3",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sun"
+          ],
+          "side": "left",
+          "notes": "good",
+          "frequencyPerDay": 1
+        }
+      ]
+    },
+    {
+      "id": 1732711888438,
+      "name": "New_program1",
+      "exercises": [
         {
-          "order": 3,
+          "order": 0,
           "exercise": "Lunges",
           "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
+          "sets": "1",
+          "reps": "2",
+          "holdTime": "3",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sun"
+          ],
           "side": "right",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732704174281,
-      "name": "yu99",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Push-ups",
-          "category": "Upper Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732704347515,
-      "name": "neel9",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Squats",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": 1732704357325,
-      "name": "neel90",
-      "exercises": [
-        {
-          "order": 0,
-          "exercise": "Squats",
-          "category": "Lower Body",
-          "sets": "",
-          "reps": "",
-          "holdTime": "",
-          "days": "",
-          "side": "",
-          "notes": ""
+          "notes": "good",
+          "frequencyPerDay": 1
         },
         {
           "order": 1,
-          "exercise": "Squats",
-          "category": "Lower Body",
+          "exercise": "Plank",
+          "category": "Core",
           "sets": "",
           "reps": "",
           "holdTime": "",
           "days": "",
-          "side": "right",
-          "notes": ""
+          "side": "left",
+          "notes": "",
+          "frequencyPerDay": 1
+        },
+        {
+          "order": 2,
+          "exercise": "Lunges",
+          "category": "Lower Body",
+          "sets": "1",
+          "reps": "2",
+          "holdTime": "3",
+          "days": [
+            "Mon",
+            "Thu",
+            "Sun"
+          ],
+          "side": "left",
+          "notes": "good",
+          "frequencyPerDay": 1
         }
       ]
     },
     {
-      "id": 1732708516211,
-      "name": "neel09",
+      "id": 1732713056549,
+      "name": "new3",
       "exercises": [
         {
           "order": 0,
@@ -457,8 +213,9 @@
           "reps": "",
           "holdTime": "",
           "days": "",
-          "side": "",
-          "notes": ""
+          "side": "left",
+          "notes": "",
+          "frequencyPerDay": "2"
         }
       ]
     }

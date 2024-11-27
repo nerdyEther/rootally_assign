@@ -80,7 +80,8 @@ const ExerciseTracker = () => {
         origExercise.holdTime === currentExercise.holdTime &&
         origExercise.days === currentExercise.days &&
         origExercise.side === currentExercise.side &&
-        origExercise.notes === currentExercise.notes
+        origExercise.notes === currentExercise.notes &&
+        (origExercise.frequencyPerDay || 1) === (currentExercise.frequencyPerDay || 1)  // Add this line
       );
     });
   };
@@ -195,7 +196,8 @@ const ExerciseTracker = () => {
         holdTime: ex.holdTime,
         days: ex.days,
         side: ex.side,
-        notes: ex.notes
+        notes: ex.notes,
+        frequencyPerDay: ex.frequencyPerDay || 1 
       }))
     };
     
@@ -236,7 +238,8 @@ const ExerciseTracker = () => {
           holdTime: ex.holdTime,
           days: ex.days,
           side: ex.side,
-          notes: ex.notes
+          notes: ex.notes,
+          frequencyPerDay: ex.frequencyPerDay || 1 
         }))
       };
   
@@ -277,7 +280,8 @@ const ExerciseTracker = () => {
         holdTime: exercise.holdTime || '',
         days: exercise.days || '',
         side: exercise.side || '',
-        notes: exercise.notes || ''
+        notes: exercise.notes || '',
+        frequencyPerDay: exercise.frequencyPerDay || 1  
       }));
     
     setSavedExercises(sortedExercises);

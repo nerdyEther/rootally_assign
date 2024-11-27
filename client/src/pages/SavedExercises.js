@@ -16,7 +16,8 @@ const SavedExercises = ({
     setEditingExerciseId(exercise.id);
     setEditedExercise({ 
       ...exercise, 
-      side: exercise.side || 'left'
+      side: exercise.side || 'left',
+      frequencyPerDay: exercise.frequencyPerDay || 1 
     });
   };
 

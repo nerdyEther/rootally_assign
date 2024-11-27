@@ -29,8 +29,8 @@ Create a UI component using ReactJS and a backend using Node.js with either Java
 
 1. Clone the repository
 ```bash
-git clone <your-repository-url>
-cd exercise-tracker
+git clone https://github.com/nerdyEther/rootally_assign.git
+
 ```
 
 2. Install Frontend Dependencies

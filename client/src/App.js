@@ -7,11 +7,10 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Route for Exercise Assignment */}
+      
         
          <Route path="/" element={<ExerciseTracker />}/>
 
-        {/* Add other routes here */}
       </Routes>
     </Router>
   );

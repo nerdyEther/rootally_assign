@@ -49,8 +49,8 @@ npm install
 
 ### Start Backend Server
 ```bash
-cd client
-nodem server.js
+cd server
+node server.js
 # Server will run on http://localhost:5555
 ```
 

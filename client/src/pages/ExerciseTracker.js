@@ -67,7 +67,7 @@ const ExerciseTracker = () => {
     }
   }, [programName, savedExercises, currentCombo]);
 
-  // All the existing helper functions remain the same
+  
   const isComboExercisesIdentical = (originalExercises = [], currentExercises = []) => {
     if (originalExercises.length !== currentExercises.length) return false;
     return originalExercises.every((origExercise, index) => {
@@ -81,7 +81,7 @@ const ExerciseTracker = () => {
         origExercise.days === currentExercise.days &&
         origExercise.side === currentExercise.side &&
         origExercise.notes === currentExercise.notes &&
-        (origExercise.frequencyPerDay || 1) === (currentExercise.frequencyPerDay || 1)  // Add this line
+        (origExercise.frequencyPerDay || 1) === (currentExercise.frequencyPerDay || 1) 
       );
     });
   };

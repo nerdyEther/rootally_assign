@@ -1,8 +1,9 @@
-# Exercise Tracker
+# Exercise Tracker Assignment
 
-## 📋 Project Overview
+## 📋 Objective
 
-Exercise Tracker is a full-stack web application designed to help users create, manage, and track workout programs with ease. The application provides a flexible interface for adding exercises, organizing workout routines, and saving custom exercise combinations.
+Create a UI component using ReactJS and a backend using Node.js with either JavaScript or TypeScript. This component will allow a physiotherapist to assign exercises to patients in a structured way, providing flexibility in creating and managing exercise programs. 
+
 
 ## ✨ Features
 
@@ -10,7 +11,7 @@ Exercise Tracker is a full-stack web application designed to help users create, 
 - 📋 Create and save custom workout programs
 - 🔀 Drag and drop exercise reordering
 - ✏️ Edit exercise details (sets, reps, hold time)
-- 🔛 Side selection (left/right)
+- 🔛 Toogle Side selection (left/right)
 - 📅 Day selection for each exercise
 
 ## 🛠 Tech Stack
@@ -18,14 +19,11 @@ Exercise Tracker is a full-stack web application designed to help users create, 
 - **Frontend:** React
 - **Backend:** Express.js
 - **UI Components:** Shadcn/UI, Tailwind CSS
-- **Drag and Drop:** @hello-pangea/dnd
-- **State Management:** React Hooks
-- **Notifications:** React Hot Toast
 
 ## 🚀 Prerequisites
 
-- Node.js (v14+ recommended)
-- npm or yarn
+- Node.js 
+- npm 
 
 ## 💻 Installation
 
@@ -37,13 +35,13 @@ cd exercise-tracker
 
 2. Install Frontend Dependencies
 ```bash
-cd frontend
+cd client
 npm install
 ```
 
 3. Install Backend Dependencies
 ```bash
-cd backend
+cd server
 npm install
 ```
 
@@ -51,30 +49,30 @@ npm install
 
 ### Start Backend Server
 ```bash
-cd backend
-node server.js
+cd client
+nodem server.js
 # Server will run on http://localhost:5555
 ```
 
 ### Start Frontend Development Server
 ```bash
-cd frontend
-npm start
+cd client
+npm run start
 # Frontend will run on http://localhost:3000
 ```
 
 ## 📂 Project Structure
 
 ### Frontend Components
-- `ExerciseTracker.js`: Main component managing program state
-- `SavedExercises.js`: Manages list of saved exercises
-- `ExerciseCard.js`: Individual exercise card component
+- `ExerciseTracker.js`: Main component.
+- `SavedExercises.js`: Manages saved exercises.
+- `ExerciseCard.js`: Individual exercise card component.
 
 ### Backend
-- `server.js`: Express server with API endpoints
-- `data.json`: JSON file for storing categories and programs
+- `server.js`: Express server with API endpoints.
+- `data.json`: JSON file for storing data.
 
-## 🌟 Key API Endpoints
+## 🌟 API Endpoints
 
 - `GET /api/categories`: Fetch exercise categories
 - `POST /api/programs`: Save new workout program
@@ -90,30 +88,4 @@ npm start
 - Tailwind CSS
 - Shadcn/UI Components
 
-## 🔮 Potential Improvements
 
-- User authentication
-- Local storage backup
-- More exercise categories
-- Enhanced error handling
-- Robust form validation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-[Add your license here]
-
-## 👥 Contributors
-
-[Add contributor names]
-
-## 📞 Support
-
-For any questions or issues, please open an GitHub issue.

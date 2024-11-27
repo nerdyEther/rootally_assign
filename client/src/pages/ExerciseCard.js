@@ -125,7 +125,7 @@ const ExerciseCard = ({
           className={`${snapshot.isDragging ? 'shadow-lg' : ''} relative w-full`}
         >
           <CardContent className="p-4 sm:p-6">
-            {/* Drag Handle */}
+           
             <div
               {...provided.dragHandleProps}
               className="absolute top-3 left-3 cursor-move"
@@ -133,7 +133,6 @@ const ExerciseCard = ({
               <GripVertical className="h-5 w-5 text-gray-400" />
             </div>
 
-            {/* Action Buttons */}
             <div className="absolute top-3 right-3 flex space-x-2">
               {editingExerciseId === exercise.id ? (
                 <div className="flex space-x-2">
@@ -170,14 +169,14 @@ const ExerciseCard = ({
               )}
             </div>
 
-            {/* Exercise Content */}
+         
             <div className="pl-8 pr-8 mt-6">
               <h3 className="font-bold text-lg sm:text-xl mb-4">{exercise.exercise}</h3>
 
-              {/* Exercise Details Grid */}
+            
               <div className="mb-4">
                 <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
-                  {/* Sets */}
+                
                   <div className="text-sm flex flex-col sm:flex-row items-center justify-start">
                     <strong className="mr-2">Sets:</strong> 
                     {editingExerciseId === exercise.id ? (
@@ -193,7 +192,7 @@ const ExerciseCard = ({
                     )}
                   </div>
 
-                  {/* Reps */}
+           
                   <div className="text-sm flex flex-col sm:flex-row items-center justify-start">
                     <strong className="mr-2">Reps:</strong>
                     {editingExerciseId === exercise.id ? (
@@ -209,7 +208,7 @@ const ExerciseCard = ({
                     )}
                   </div>
 
-                  {/* Hold Time */}
+          
                   <div className="text-sm flex flex-col sm:flex-row items-center justify-start">
                     <strong className="mr-2">Hold :</strong>
                     {editingExerciseId === exercise.id ? (
@@ -225,7 +224,7 @@ const ExerciseCard = ({
                     )}
                   </div>
 
-                  {/* Side */}
+         
                   <div className="text-sm flex flex-col sm:flex-row items-center justify-start">
                     <strong className="mr-2">Side:</strong>
                     <div>
@@ -242,7 +241,7 @@ const ExerciseCard = ({
                     </div>
                   </div>
 
-                  {/* Duplicate Button */}
+       
                   <Button
                     size="sm"
                     variant="default"
@@ -255,17 +254,35 @@ const ExerciseCard = ({
                 </div>
               </div>
 
-              {/* Days Selection */}
+        
               <div className="mb-4">
                 <div className="flex flex-col">
-                  <div className="text-sm flex flex-col sm:flex-row items-start sm:items-center">
-                    <strong className="mr-2 mb-2 sm:mb-0">Days:</strong>
-                    <div className="flex flex-wrap items-center">{renderDayButtons()}</div>
+                  <div className="text-sm flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                    <div className="flex items-center space-x-2">
+                      <strong className="mr-2">Days:</strong>
+                      <div className="flex flex-wrap items-center">{renderDayButtons()}</div>
+                    </div>
+                    
+               
+                    <div className="flex items-center space-x-2">
+                      <strong className="mr-2">Freq/Day:</strong>
+                      {editingExerciseId === exercise.id ? (
+                        <EditableCounter
+                          label=""
+                          value={editedExercise.frequencyPerDay || 1}
+                          onChange={(val) => onEditChange('frequencyPerDay', val)}
+                          onIncrement={() => incrementValue('frequencyPerDay')}
+                          onDecrement={() => decrementValue('frequencyPerDay')}
+                        />
+                      ) : (
+                        <span>{exercise.frequencyPerDay || '1'}</span>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* Notes Section */}
+             
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                 <div className="text-sm flex-grow flex flex-col sm:flex-row items-start sm:items-center">
                   <strong className="mr-2 mb-1 sm:mb-0">Notes:</strong> 
